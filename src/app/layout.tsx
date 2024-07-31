@@ -16,7 +16,7 @@ const accent = localFont({
   variable: "--font-accent",
 });
 export const metadata: Metadata = {
-  title: "Nadia Shchenikova | Creative Portfolio",
+  title: "Nadia Shchenikova Digital Graphic Designer | Creative Portfolio",
   description:
     "My name is Nadia Shchenikova and I am passionate about design and all things related to art. I tackle problems with a rational mindset, aiming for the simplest and most functional solutions. Additionally, I infuse a unique style tailored to your preferences.",
 };
