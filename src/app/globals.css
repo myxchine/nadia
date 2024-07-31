@@ -5,3 +5,7 @@
 .saturated-image {
   filter: saturate(1.2); /* Increase saturation by 2 times */
 }
+
+body {
+  background-color: #1e3226;
+}

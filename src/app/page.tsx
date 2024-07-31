@@ -6,7 +6,7 @@ export const viewport: Viewport = {
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col items-center justify-start bg-[#1E3226] min-h-screen pt-[60px] md:pt-[88px] md:px-8 px-4 xl:px-24 max-w-[1700px] mx-auto">
+    <div className="w-full flex flex-col items-center justify-start bg-[#1E3226] pt-[60px] md:pt-[88px] md:px-8 px-4 xl:px-24 max-w-[1700px] mx-auto">
       <h1 className="text-transparent absolute">Creative Portfolio</h1>
       <p className="text-transparent absolute">My name is Nadia Shchenikova</p>
 
