@@ -1,5 +1,6 @@
 import { Viewport } from "next";
 import Image from "next/image";
+import { Flower } from "./_components/Icons";
 export const viewport: Viewport = {
   themeColor: "#1E3226",
 };
@@ -14,7 +15,16 @@ export default function Home() {
         <ImageHero />
         <Text />
         <Socials />
+        <FlowerIcon />
       </div>
+    </div>
+  );
+}
+
+function FlowerIcon() {
+  return (
+    <div className="absolute top-[-50px] md:top-[-55px] left-0 w-full flex flex-col pr-4 md:pr-0 items-end md:items-center justify-center">
+      <Flower />
     </div>
   );
 }
