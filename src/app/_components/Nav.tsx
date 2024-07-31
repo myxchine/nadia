@@ -12,13 +12,23 @@ const navItems = [
 export default function Nav(props: any) {
   const pathname = usePathname();
 
+  let text = "white";
+
+  if (pathname === "/") {
+    text = "white";
+  }
+
+  if (pathname === "/about") {
+    text = "black";
+  }
+
   return (
     <nav {...props}>
       {navItems.map((item, index) => (
         <Link
           href={item.href}
           key={index}
-          className={`font-accent text-white ${
+          className={`font-accent text-${text} ${
             pathname === item.href ? "underline" : ""
           } hover:underline`}
         >

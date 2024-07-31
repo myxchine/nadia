@@ -1,13 +1,23 @@
 import { Viewport } from "next";
 import Image from "next/image";
 import { Flower } from "./_components/Icons";
+import About from "./about/page";
 export const viewport: Viewport = {
   themeColor: "#1E3226",
 };
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col items-center justify-start bg-[#1E3226] pt-[60px] md:pt-[88px] md:px-8 px-4 xl:px-24 max-w-[1700px] mx-auto">
+    <>
+      <Intro />
+      <About />
+    </>
+  );
+}
+
+function Intro() {
+  return (
+    <div className="w-full flex flex-col items-center justify-start bg-[#1E3226] pt-[60px] md:pt-[88px] md:px-8 px-4 xl:px-24 max-w-[1700px] mx-auto pb-8 md:pb-24">
       <h1 className="text-transparent absolute">Creative Portfolio</h1>
       <p className="text-transparent absolute">My name is Nadia Shchenikova</p>
 
@@ -20,7 +30,6 @@ export default function Home() {
     </div>
   );
 }
-
 function FlowerIcon() {
   return (
     <div className="absolute top-[-50px] md:top-[-55px] left-0 w-full flex flex-col pr-4 md:pr-0 items-end md:items-center justify-center">
