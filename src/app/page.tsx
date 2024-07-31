@@ -6,11 +6,11 @@ export const viewport: Viewport = {
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col items-center justify-start bg-[#1E3226] min-h-screen pt-[88px] px-8 xl:px-24 max-w-[1700px] mx-auto">
+    <div className="w-full flex flex-col items-center justify-start bg-[#1E3226] min-h-screen pt-[60px] md:pt-[88px] md:px-8 px-4 xl:px-24 max-w-[1700px] mx-auto">
       <h1 className="text-transparent absolute">Creative Portfolio</h1>
       <p className="text-transparent absolute">My name is Nadia Shchenikova</p>
 
-      <div className="w-full relative">
+      <div className="w-full relative flex flex-col gap-8 md:gap-0">
         <ImageHero />
         <Text />
         <Socials />
@@ -43,14 +43,14 @@ function ImageHero() {
       height={1000}
       quality={100}
       priority={true}
-      className="w-full h-auto md:px-6 max-w-[1300px] saturated-image"
+      className="w-full px-0 h-auto md:px-6 max-w-[1300px] saturated-image"
     />
   );
 }
 
 function Socials() {
   return (
-    <div className="flex flex-col gap-4 text-sm font-accent text-[#F1DAAE] absolute bottom-0 items-end w-full text-left">
+    <div className="flex flex-col gap-4 text-sm font-accent text-[#F1DAAE] md:absolute bottom-0 md:items-end w-full text-left px-4 md:px-0">
       <div className="text-left flex flex-col gap-4">
         <p>IG: _nadiiaa_s</p>
 
