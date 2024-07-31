@@ -6,7 +6,7 @@ export const viewport: Viewport = {
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col items-center justify-start bg-[#1E3226] min-h-screen pt-[88px] px-8 xl:px-24">
+    <div className="w-full flex flex-col items-center justify-start bg-[#1E3226] min-h-screen pt-[88px] px-8 xl:px-24 max-w-[1700px] mx-auto">
       <h1 className="text-transparent absolute">Creative Portfolio</h1>
       <p className="text-transparent absolute">My name is Nadia Shchenikova</p>
 
@@ -42,7 +42,7 @@ function ImageHero() {
       width={2000}
       height={1000}
       quality={100}
-      style={{}}
+      priority={true}
       className="w-full h-auto md:px-6 max-w-[1300px] saturated-image"
     />
   );
