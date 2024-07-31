@@ -109,7 +109,7 @@ function AboutHero() {
         <br /> I'm Nadia
       </h1>
       <p className="text-sm font-semibold max-w-[300px]">
-        I am a self-thought Graphic Designer based in Algarve, Portugal with
+        I am a self-taught Graphic Designer based in Algarve, Portugal with
         substantial marketing and content creation experience. I am currently
         living in London and pursuing a degree in Visual Arts.
       </p>
